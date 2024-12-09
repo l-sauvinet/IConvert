@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #383838;
+  overflow: hidden;
+  user-select: none;
+}
+
+.container-convert{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding: 70px;
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  font-family: "audiowide";
+}
+
+.heading{
+  margin-top: -20px;
+  color: #383838;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: "audiowide";
+  border-radius: 25px;
+}
+
+.rate{
+  margin-top: 3.5rem;
+}
+
+.rate1{
+  color: gray;
+}
+
+.rate2{
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+  font-family: initial;
+  width: 100%;
+}
+
+select{
+  width: 105%;
+  height: 30px;
+  font-family: "Calibri";
+  font-size: 20px;
+  border-radius: 5px;
+  border: solid 2px #383838;
+}
+
+.swap{
+  align-self: flex-end;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.options select{
+  padding: 2%;
+  width: 75px;
+}
+
+.input1{
+  all: unset;
+  display: inline-block;
+  margin-top: 1rem;
+  width: 105%;
+  height: 48px;
+  padding: 5px;
+  background-color: #ebebeb;
+  font-size: 2.5rem;
+  color: black;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 500;
+  appearance: textfield;
+  caret-color: transparent;
+  font-family: "Calibri";
+}
+
+.input2{
+  all: unset;
+  display: inline-block;
+  margin-top: 1rem;
+  width: 105%;
+  height: 48px;
+  padding: 5px;
+  background-color: #ebebeb;
+  font-size: 2.5rem;
+  color: black;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 500;
+  appearance: textfield;
+  caret-color: transparent;
+  font-family: "Calibri";
+  text-align: end;
+}
+
+.target{
+  transform: translateX(-5%);
+}
+
+.result{
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #383838;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.result:active{
+  font-style: bold;
+  background-color: rgb(255, 255, 255);
+  color:#383838;
+  border: 2px solid #383838;
+}
+
+.logo{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.User{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #000;
+}
+
+.userConnect{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #000;
+}
+
+
+.user_logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.modal-header, h4, .close {
+  background-color: #383838;
+  color:white !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-footer {
+  background-color: #f9f9f9;
+}
+
+.modal-size{
+  width: 800px;
+  height: 400px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: calc(50% - 800px);
+}
+
+.btnLogin{
+  margin-left: 100px;
+  margin-top: 50px;
+  color: white;
+  height: 50px;
+  width: 70%;
+  background-color: #383838;
+  border-radius: 5px;
+}
+
+.form-login{
+  margin-top: 50px;
+  height: 50px;
+}
+
+.input-login{
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border-color: #ebebeb;
+}
+
+.all-modal{
+  border-radius: 15px;
+}
+
+.box2{
+  position: absolute;
+  display: none;
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  font-family: "audiowide";
+  margin-top: 500px;
+}
+
+.show{
+  display: block;
+}
+
+.titlebox2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.tauxDeChange{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.test{
+  width: 400px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.pseudo{
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  position: absolute;
+  top: 25px;
+  right: 75px;
+  color: #ffffff;
+}
+
+.noPwd{
+  margin-left: 100px;
+  margin-top: 50px;
+  color: white;
+  height: 50px;
+  width: 70%;
+  background-color: #696969;
+  border-radius: 5px;
+}
+
+
+.info {
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+.info-container {
+  position: absolute;
+  right: 30px;
+  top: 280px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.tooltip-link {
+  cursor: help;
+  position: relative;
+  text-decoration: underline;
+}
+
+.tooltip-link:hover::after {
+  position: absolute;
+  opacity: 0;
+  content: attr(data-tooltip);
+  bottom: 0%;
+  animation: fadeIn 100ms cubic-bezier(0.42, 0, 0.62, 1.32) forwards;
+  left: 50%;
+  animation-delay: 100ms;
+  color: #ff0000;
+  background: #ffffff;
+  border-radius: 20px;
+  min-width: 200px;
+  max-width: 100%;
+  font-weight: 700;
+  text-transform: none;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  box-shadow: 0px 10px 33px #3333332e;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translate(-50%, 50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -30px);
+  }
+}
+
+.disabled-style {
+  background-color: #ddd;
+  color: #666;
+}
+
+.logout {
+  background-color: #c9302c;
+  color: #ffff;
+  border-color: #d43f3a;
+}
+
